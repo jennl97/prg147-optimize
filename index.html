@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Optimizing JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+</head>
+<header class="w3-container constrain w3-theme-l4"><h1>Jenn's Sliding Thumbnails</h1></header>
+<body>
+<div class="w3-panel constrain">
+<div id="slide">
+    <a href="#"><img src="images/leftPlay.png" alt="left play" id="play-left" onclick="changeThumbLeft()"></a>
+    <a href="#"><img src="images/alligators_sm.jpg" alt="Don't molest the alligators" id="left" onclick="leftButton()"></a>
+    <a href="#"><img src="images/beach1_sm.jpg" alt="Beaches" id="center" onclick="centerButton()"></a>
+    <a href="#"><img src="images/beach2_sm.jpg" alt="Beaches" id="right" onclick="rightButton()"></a>
+    <a href="#"><img src="images/play.png" alt="right play" id="right-play" onclick="changeThumb()"></a>
+</div>
+</div>
+
+<div class="w3-container constrain w3-theme-l4">
+    <img src="images/alligators.jpg" alt="Don't molest the alligators!" id="large">
+    <div id="info">
+        <h1 id="title">Don't molest the alligators??</h1>
+        <p id="detail">Which makes me have to ask.. how many people molested alligators to the point that the State of Florida said 'Hey, we have a problem'?</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
